@@ -186,7 +186,8 @@ def run_fetch():
     print(f"\n📁 抓数完成，累计新增 {total} 条 → {GOODS_FILE}")
 
 # =============【B. 比价：生成低于控价清单】===============================
-PRICE_FILE="price.xlsx"   # sheet: 电商控价
+# PRICE_FILE="price.xlsx"   # sheet: 电商控价
+PRICE_FILE = PRICE_PATH
 RESULT_FILE=os.path.join(OUTPUT_DIR, "filtered_result.xlsx")
 
 def _extract_pack_count(name:str)->int:
