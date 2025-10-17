@@ -1,0 +1,1 @@
+pyinstaller -F -n PDDScan --add-data "price.xlsx;." --collect-all pandas --collect-all numpy --collect-all openpyxl --paths ".\.venv\Lib\site-packages" --clean --log-level=DEBUG main.py

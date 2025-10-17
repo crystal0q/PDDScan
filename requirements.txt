@@ -1,0 +1,8 @@
+# 运行依赖
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+openpyxl>=3.1,<4.0
+requests>=2.31,<3.0
+
+# 仅用于打包（CI 环境也需要）
+pyinstaller>=6.0,<7.0
